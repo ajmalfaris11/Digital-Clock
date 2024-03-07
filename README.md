@@ -16,7 +16,7 @@ This web application provides users with a live time clock, displaying the curre
 
 ## User Interface
 
-![Live Time Clock UI](Img/UI design.png)
+![Live Time Clock UI](Img/UI/design.png)
 
 **Description:**
 - The user interface is simple and intuitive, featuring a large clock display that shows the current time.
