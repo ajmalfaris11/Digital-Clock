@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Flip Clock</title>
+        <title>12'O Clock</title>
+        <link rel="icon" href="Img/clock icon.png">
         <!-- ------- Google Font ---------- -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,20 @@
 
     </head>
     <body>
-    
+        <div class="flip-clock" id="flip-clock">
+            <div class="flip-unit shadow">
+                <div class="flip" id="hours-tens">
+                  <div class="front"><span class="flip-digit">0</span></div>
+                  <div class="back"><span class="flip-digit">0</span></div>
+                </div>
+                <div class="flip" id="hours-ones">
+                  <div class="front"><span class="flip-digit">0</span></div>
+                  <div class="back"><span class="flip-digit">0</span></div>
+                </div>
+                <div id="periods">
+                  <span></span>
+                </div>
+              </div>
+        </div>
     </body>
 </html>

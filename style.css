@@ -1,0 +1,66 @@
+body {
+    font-family: "Nabla", system-ui;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .flip-clock {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    font-size: 12rem;
+
+  }
+
+  .flip-unit {
+    width: 365.25px;
+    height: 356.25px;
+    margin: 0 12px;
+    position: relative;
+    perspective: 1000px;
+    display: flex;
+    border-radius: 24px;
+    background-color: rgb(0, 0, 0);
+
+
+  }
+
+  .shadow{
+    box-shadow: 0px 0px 60px rgb(255, 217, 0);
+    z-index:2;
+  }
+
+  .flip {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.2s;
+
+  }
+
+  .flip-digit {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
