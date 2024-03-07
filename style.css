@@ -6,9 +6,11 @@ body {
     height: 100vh;
     margin: 0;
     box-sizing: border-box;
+   background-color:black;
+    background-image: url(Img/backgruond.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url(Img/backgruond.png);
+
   }
 
   .flip-clock {
