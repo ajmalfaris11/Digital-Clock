@@ -64,3 +64,10 @@ body {
     align-items: center;
     
   }
+
+  #periods{
+    position: absolute;
+    font-size: 60px;
+    margin-left: 24px;
+    text-shadow: none;
+  }
