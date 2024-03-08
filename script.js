@@ -11,7 +11,7 @@ function updateClock() {
       periods.innerHTML = "Pm"
       hours = parseInt(hours);
       hours = hours - 12;
-      if(hourse < 10){
+      if(hours < 10){
         hours = "0" + hours.toString();
       }
       else{
